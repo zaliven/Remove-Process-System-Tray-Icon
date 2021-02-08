@@ -1,4 +1,4 @@
-# C# Remove Process System Tray Icon
+# Remove Process System Tray Icon (C#)
 The code utilizes WinApi to remove a system tray icon of a process, using either the process name or pid of the process.
 
 WinApi functions used (user32.dll):  
