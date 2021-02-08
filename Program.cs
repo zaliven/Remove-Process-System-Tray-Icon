@@ -79,6 +79,7 @@ namespace Deluxus
             // The following is the ID of the app.
             // This may vary from app to app. To get the ID, you can use 
             // Sysinternals Process Explorer or PSTray.
+            // ID usually stays constant.
             pnid.uID = 1; 
 
             Shell_NotifyIcon(0x00000002, ref pnid); // removes icon
